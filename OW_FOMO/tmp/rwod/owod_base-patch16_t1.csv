@@ -1,0 +1,2 @@
+,WI,AOSA,CK_AP50,CK_P50,CK_R50,K_AP50,K_P50,K_R50,U_AP50,U_P50,U_R50,model,dataset,unk_proposal,unk_method,classnames_file,unknown_classnames_file,pred_per_im,num_few_shot,templates_file
+0,0.035272023006044956,17512.0,0.0037949325051158667,0.013391718391293259,0.6026516673362796,0.0037949325051158667,0.013391718391293259,0.6026516673362796,0.0,0.0,0.0,google/owlvit-base-patch16,SOWODB,True,sigmoid-max-mcm,t1_known.txt,t1_unknown_classnames_groundtruth.txt,100,100,best_templates.txt
