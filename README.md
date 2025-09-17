@@ -3,7 +3,9 @@
 ![OWOD](./images/OWOD.png)
 This project explores **Open World Object Detection (OWOD)** and **Open Vocabulary Detection (OVD)** by leveraging vision-language models. Traditional object detection systems are restricted to a fixed set of predefined classes, making them ineffective when encountering novel objects. Our approach integrates large language models, CLIP, and the OWL-ViT detector to bridge vision and language embeddings. By exploiting attribute-based text-image correspondence, the model not only recognizes known classes but also discovers potential unknown objects. These unknowns can then be incrementally added as pseudo-labels, enabling the system to continuously expand its detection capabilities and adapt to open-world scenarios.
 ![Method](./images/method.png)
-
+  
+- Please refer to [OW_FOMO](./OW_FOMO) for the full source code.
+- Please refer to [report](./CV_project.pdf) for more descriptions and results.
 
 ## Replicate Guide
  1. Please download the MS COCO dataset and place it in a file hierarchy according to DATASET_SETUP.md
